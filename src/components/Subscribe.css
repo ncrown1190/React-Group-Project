@@ -1,0 +1,24 @@
+.subscribeContainer {
+  text-align: center;
+  font-weight: 200;
+  width: 100%;
+}
+.subscribeContainer .subscribeText .subscribeForm {
+  margin: 10px;
+}
+#emailInput {
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid green;
+  width: 25%;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Inter", sans-serif; */
+}
+.subscribeContainer .subscribeBtn {
+  border: 2px solid green;
+  border-radius: 20px;
+  padding: 12px 35px 12px 35px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
