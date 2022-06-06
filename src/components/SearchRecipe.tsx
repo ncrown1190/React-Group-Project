@@ -1,5 +1,5 @@
 import searchIcon from "../assets/search1.svg";
-import "./SearchRecipe.css";
+import "./SearchRecipes.css";
 
 export default function SearchRecipe() {
   return (
@@ -9,7 +9,7 @@ export default function SearchRecipe() {
         <input
           className="SearchBar"
           placeholder="search recipe"
-          name="SerachBar"
+          name="SearchBar"
           value=""
           id="SearchBar"
         ></input>
@@ -34,7 +34,7 @@ export default function SearchRecipe() {
         <div className="diet-container">
           <select className="diet" name="diet" id="diet" value="">
             <option value="" disabled selected hidden>
-              dietry preference
+              dietary preference
             </option>
             <option value="vegetarian">Vegetarian</option>
             <option value="vegan">Vegan</option>
@@ -49,7 +49,7 @@ export default function SearchRecipe() {
             className="calories"
             type="number"
             placeholder="calories"
-            name="caloriesr"
+            name="calories"
             value=""
             id="calories"
           ></input>
