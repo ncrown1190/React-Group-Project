@@ -1,5 +1,5 @@
 import searchIcon from "../assets/search1.svg";
-import "./SearchRecipes.css";
+import "./SearchRecipe.css";
 
 export default function SearchRecipe() {
   return (
