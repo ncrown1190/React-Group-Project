@@ -11,7 +11,7 @@ export default function Header() {
       className="header"
       style={{
         background:
-          path === "/" || path === "/recipes/complexSearch" ? "green" : "black",
+          path === "/" || path === "/recipes/complexSearch" ? "#85BFB2" : "black",
         marginTop: 0,
         position: "relative",
       }}
