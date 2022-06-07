@@ -19,14 +19,12 @@ export default function SearchRecipe() {
         <div className="meal-type-container">
           <select className="mealType" name="meals" value="">
             <option value="" disabled selected hidden>
-              select meal
-            </option>
-            <option value="breakfast">Breakfast</option>
+              Dish Types
+            </option>           
             <option value="lunch">Lunch</option>
+            <option value="mainCourse">Main Course</option>
+            <option value="mainDish">Main Dish</option>
             <option value="dinner">Dinner</option>
-            <option value="appetizers">Appetizers</option>
-            <option value="sides">Side Dishes</option>
-            <option value="dessert">Desserts</option>
           </select>
 
           <i className="fa-solid fa-angle-down"></i>
@@ -34,9 +32,10 @@ export default function SearchRecipe() {
         <div className="diet-container">
           <select className="diet" name="diet" id="diet" value="">
             <option value="" disabled selected hidden>
-              dietary preference
+              Dietary Preference
             </option>
             <option value="vegetarian">Vegetarian</option>
+            <option value="dairyFree">Dairy Free</option>
             <option value="vegan">Vegan</option>
             <option value="glutenFree">Gluten Free</option>
             <option value="keto">Keto</option>
@@ -48,7 +47,7 @@ export default function SearchRecipe() {
           <input
             className="calories"
             type="number"
-            placeholder="calories"
+            placeholder="Calories"
             name="calories"
             value=""
             id="calories"
