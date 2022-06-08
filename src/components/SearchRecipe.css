@@ -42,7 +42,7 @@ input,
   padding: 5px 10px;
   font-size: 14px;
   color: #76797a;
-  border: 2px solid green;
+  border: 2px solid #85BFB2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   /* background-color: #e2fef7; */
 }
@@ -96,5 +96,5 @@ input {
   border-radius: 30px;
   width: 150px;
   height: 30px;
-  border: 2px solid green;
+  border: 2px solid #85BFB2;
 }
