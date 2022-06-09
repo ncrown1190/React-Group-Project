@@ -13,4 +13,11 @@ export default interface Food {
   glutenFree: boolean;
   nutFree: boolean;
   dishTypes: string[];
+  maxCalories: number;
+}
+
+export interface RecipeSearch {
+  dishTypes: string;
+  dietaryPreference: string;
+  calories: string;
 }
