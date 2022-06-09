@@ -1,7 +1,14 @@
 import searchIcon from "../assets/search1.svg";
 import "./SearchRecipe.css";
+import { FormEvent, useState } from "react";
 
 export default function SearchRecipe() {
+
+function handleSubmit(e: FormEvent){
+  e.preventDefault();
+ 
+}
+
   return (
     <form className="SearchBox">
       <div className="searchBar-icon">
@@ -46,7 +53,8 @@ export default function SearchRecipe() {
         <div>
           <input
             className="calories"
-            type="number"
+            type="text"
+            inputMode="numeric"
             placeholder="Calories"
             name="calories"
             value=""
